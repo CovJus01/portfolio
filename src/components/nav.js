@@ -6,16 +6,21 @@ const navbar = {
   margin: 0,
   background: "#104547",
   color: "#ffffff",
+  display:"flex",
 };
+const navContent ={
+  width: "25%",
+  textAlign: "center"
+}
 
 //Body
 const Nav = () => {
   return (
     <div id="nav-container" style={navbar}>
-      <Link to="/about">About Me!</Link>
-      <Link to="/projects">Projects</Link>
-      <Link to="/extra">Extra</Link>
-      <Link to="/contact">Contact</Link>
+      <Link to="/about" style={navContent}>About Me!</Link>
+      <Link to="/projects" style={navContent}>Projects</Link>
+      <Link to="/extra" style={navContent}>Extra</Link>
+      <Link to="/contact" style={navContent}>Contact</Link>
     </div>
   );
 };

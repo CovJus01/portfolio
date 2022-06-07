@@ -1,7 +1,5 @@
 import * as React from "react";
-import Header from "../components/header";
-import Footer from "../components/Footer";
-import Nav from "../components/nav";
+import Layout from "../components/layout";
 import "../styles/index.css";
 
 //Styles
@@ -9,11 +7,9 @@ import "../styles/index.css";
 //Body
 const IndexPage = () => {
   return (
-    <>
-      <Header />
-      <Nav />
-      <Footer />
-    </>
+    <Layout>
+      <div className="main-content"><h2>Welcome!</h2></div>
+    </Layout>
   );
 };
 

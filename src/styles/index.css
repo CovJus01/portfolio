@@ -1,4 +1,35 @@
 body {
   background-color: #c8f5f9;
+  background-image: url("../images/Panoramic.jpeg");
+  background-size: cover;
   margin: 0;
+}
+h1,h2,h3,h4,h5,p,a {
+  font-family: 'Lato', sans-serif;
+}
+a{
+  color: #c8f5f9;
+  text-decoration: none;
+  margin:0;
+}
+
+h1 {
+  margin:0;
+}
+
+footer a {
+  font-size: 2rem;
+}
+main{
+  min-height: 84vh;
+  display: flex;
+  justify-content: center;
+  margin: 1vh;
+}
+.main-content{
+  height:auto;
+  background-color:rgba(200, 245, 249, 90%);
+  width: 70%;
+  border-radius: 20px;
+  text-align: center;
 }
