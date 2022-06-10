@@ -1,35 +1,80 @@
+/*---------------------------SETTING DEFAULTS---------------------------*/
 body {
   background-color: #c8f5f9;
   background-image: url("../images/Panoramic.jpeg");
   background-size: cover;
   margin: 0;
 }
-h1,h2,h3,h4,h5,p,a {
-  font-family: 'Lato', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Lato", sans-serif;
+  margin: auto;
 }
-a{
+a {
   color: #c8f5f9;
   text-decoration: none;
-  margin:0;
+  margin: 0;
 }
 
 h1 {
-  margin:0;
+  font-size: 60px;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
 }
 
-footer a {
-  font-size: 2rem;
+p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  margin: 0;
+  padding: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-main{
+
+.fontOswald200 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+}
+.fontOswald300 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+.fontLato400 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+/*---------------------------Header---------------------------*/
+#siteTitle {
+  font-size: 60px;
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+}
+
+/*---------------------------MAINBODY---------------------------*/
+
+main {
   min-height: 84vh;
   display: flex;
   justify-content: center;
   margin: 1vh;
 }
-.main-content{
-  height:auto;
-  background-color:rgba(200, 245, 249, 90%);
+.main-content {
+  height: auto;
+  background-color: rgba(200, 245, 249, 90%);
   width: 70%;
   border-radius: 20px;
-  text-align: center;
+  text-align: left;
+}
+
+/*---------------------------Footer---------------------------*/
+footer a {
+  font-size: 2rem;
 }

@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 import logo from "../images/personal-logo.png";
 
@@ -8,24 +9,24 @@ const header = {
   color: "#ffffff",
   display: "flex",
 };
-
-const title = {
-  fontSize:"60px",
-  width: "80%",
-  textAlign: "center"
-}
-const imageWrap = {width: "10%", display:"flex",alignItems: "center",justifyContent:"center"};
+const imageWrap = {
+  width: "10%",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+};
 
 //Body
 const Header = () => {
   return (
     <div style={header}>
-      <div style = {imageWrap}>
-      <img height = "60px" width="60px" alt="Gatsby G Logo" src={logo} />
+      <div style={imageWrap}>
+        <img height="60px" width="60px" alt="Gatsby G Logo" src={logo} />
       </div>
-      <h1 style = {title}>Justin Covach</h1>
-    
-    <div style = {{width: "10%"}}/>
+      <Link to="/" id="siteTitle">
+        <h1>Justin Covach</h1>
+      </Link>
+      <div style={{ width: "10%" }} />
     </div>
   );
 };
