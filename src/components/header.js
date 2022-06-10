@@ -15,6 +15,7 @@ const title = {
   textAlign: "center"
 }
 const imageWrap = {width: "10%", display:"flex",alignItems: "center",justifyContent:"center"};
+
 //Body
 const Header = () => {
   return (
