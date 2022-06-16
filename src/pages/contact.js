@@ -6,9 +6,7 @@ import "../styles/index.css";
 const ContactPage = () => {
   return (
     <Layout>
-      <div className="main-content">
-        <h2>Contact ME</h2>
-      </div>
+      <h2>Contact ME</h2>
     </Layout>
   );
 };

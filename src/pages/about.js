@@ -5,9 +5,7 @@ import "../styles/index.css";
 const AboutPage = () => {
   return (
     <Layout>
-      <div className="main-content">
-        <h2>About</h2>
-      </div>
+      <h2>About</h2>
     </Layout>
   );
 };

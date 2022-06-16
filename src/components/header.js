@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <div style={header}>
       <div style={imageWrap}>
-        <img height="60px" width="60px" alt="Gatsby G Logo" src={logo} />
+        <img height="60px" width="60px" alt="JC logo" src={logo} />
       </div>
       <Link to="/" id="siteTitle">
         <h1>Justin Covach</h1>

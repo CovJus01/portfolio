@@ -1,8 +1,13 @@
 /*---------------------------SETTING DEFAULTS---------------------------*/
 body {
-  background-color: #c8f5f9;
-  background-image: url("../images/Panoramic.jpeg");
-  background-size: cover;
+  background: rgb(40, 40, 48);
+  background: linear-gradient(
+    90deg,
+    rgba(40, 40, 48, 1) 0%,
+    rgba(200, 245, 249, 1) 15%,
+    rgba(200, 245, 249, 1) 85%,
+    rgba(40, 40, 48, 1) 100%
+  );
   margin: 0;
 }
 h1,
@@ -61,10 +66,10 @@ p {
 /*---------------------------MAINBODY---------------------------*/
 
 main {
-  min-height: 84vh;
+  min-height: 82vh;
   display: flex;
   justify-content: center;
-  margin: 1vh;
+  margin: 0;
 }
 .main-content {
   height: auto;
@@ -72,6 +77,18 @@ main {
   width: 70%;
   border-radius: 20px;
   text-align: left;
+}
+
+/*Homepage*/
+
+.introduction {
+  max-height: 50%;
+}
+.quickViews {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  height: 50%;
 }
 
 /*---------------------------Footer---------------------------*/
