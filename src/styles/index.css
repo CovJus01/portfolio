@@ -1,13 +1,13 @@
 /*---------------------------SETTING DEFAULTS---------------------------*/
+/*Auburn-#A52422*/
+/*Raisin Black-#282830*/
+/*Oxford Blue-#192238*/
+/*Honeydew-#F3FCF0*/
+/*Bitter Lemon-#a0c10e*/
+/*Xiketic-#14141C*/
+
 body {
-  background: rgb(40, 40, 48);
-  background: linear-gradient(
-    90deg,
-    rgba(40, 40, 48, 1) 0%,
-    rgba(200, 245, 249, 1) 15%,
-    rgba(200, 245, 249, 1) 85%,
-    rgba(40, 40, 48, 1) 100%
-  );
+  background-color: rgb(22, 22, 27);
   margin: 0;
 }
 h1,
@@ -54,6 +54,11 @@ p {
   font-family: "Lato", sans-serif;
   font-weight: 400;
 }
+.content-block {
+  top: 7vh;
+  height: 80vh;
+  width: 100vw;
+}
 /*---------------------------Header---------------------------*/
 #siteTitle {
   font-size: 60px;
@@ -61,6 +66,51 @@ p {
   text-align: center;
   color: #fff;
   margin: auto;
+}
+.header {
+  margin: 0;
+  background: #282830;
+  color: #ffffff;
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  height: 7vh;
+}
+.link-wrap {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  justify-content: center;
+}
+.header-link {
+  color: #f3fcf0;
+  padding: 5px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+.header-link:hover {
+  color: #a0c10e;
+}
+
+header a {
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+header a:hover {
+  font-size: 1.2rem;
+  padding-bottom: 8px;
+}
+
+.icon {
+  padding-top: 11px;
+  font-size: 1.5rem;
+}
+.icon:hover {
+  padding-bottom: 5px;
+  font-size: 1.5rem;
 }
 
 /*---------------------------MAINBODY---------------------------*/
@@ -78,17 +128,57 @@ main {
   border-radius: 20px;
   text-align: left;
 }
-
-/*Homepage*/
-
-.introduction {
-  max-height: 50%;
+/*---------------------------Introduction---------------------------*/
+.first.content-block {
+  margin-top: 7vh;
+  background-image: url("../images/Panoramic.jpeg");
+  background-size: cover;
 }
-.quickViews {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 100%;
-  height: 50%;
+.introduction {
+  background-color: rgba(20, 20, 28, 85%);
+  width: 100%;
+  height: 100%;
+}
+
+/*---------------------------About---------------------------*/
+.second.content-block {
+  background: #192238;
+}
+.about {
+  background-color: #192238;
+  width: 100%;
+  height: 100%;
+}
+
+/*---------------------------Experience---------------------------*/
+.third.content-block {
+  background: #a0c10e;
+}
+.experience {
+  background-color: #a0c10e;
+  width: 100%;
+  height: 100%;
+}
+
+/*---------------------------Projects---------------------------*/
+.fourth.content-block {
+  background: #a52422;
+}
+.projects {
+  background-color: #a52422;
+  width: 100%;
+  height: 100%;
+}
+
+/*---------------------------Contact---------------------------*/
+.fifth.content-block {
+  background: #14141c;
+  height: 93vh;
+}
+.contact {
+  background-color: #14141c;
+  width: 100%;
+  height: 100%;
 }
 
 /*---------------------------Footer---------------------------*/
