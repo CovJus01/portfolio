@@ -6,19 +6,24 @@ const About = () => {
     <div className="about">
       <div className="content-wrap">
         <div>
-          <h1>About Me</h1>
+          <h1>About&nbsp;Me</h1>
         </div>
-        <div>
+        <div className="arrows"></div>
+        <div className="vertical-gallery">
           <p className="">
             Currently Exploring and Learning technologies related to
             web-development, applications involving both frontend and backend
             frameworks and tools
           </p>
           <p className="">
-            3rd year Computer Engineering student at McMaster University
+            I enjoy many sports and activities. Some of these include
+            Volleyball, Spikeball, Weight Lifting and Soccer. I also enjoy
+            hobbies such as videogames, guitar and obviously, programming!
           </p>
           <p className="">
-            3rd year Computer Engineering student at McMaster University
+            I have an interest in exploring various applications of machine
+            learning and AI and plan to delve deeper into these applications in
+            the near future!
           </p>
         </div>
       </div>
