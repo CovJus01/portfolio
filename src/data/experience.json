@@ -1,0 +1,12 @@
+{
+  "Experience": [
+    {
+      "_id": 1,
+      "image": "/images/RPDU.png",
+      "title": "Low Code and Full Stack Web Application Developer",
+      "company": "RPDU",
+      "description": "Worked with a group of individuals to quickly develop application prototypes to optimize internal productivityWorked with a group of individuals to quickly develop application prototypes to optimize internal productivityWorked with a group of individuals to quickly develop application prototypes to optimize internal productivityWorked with a group of individuals to quickly develop application prototypes to optimize internal productivityWorked with a group of individuals to quickly develop application prototypes to optimize internal productivityWorked with a group of individuals to quickly develop application prototypes to optimize internal productivityWorked with a group of individuals to quickly develop application prototypes to optimize internal productivityWorked with a group of individuals to quickly develop application prototypes to optimize internal productivityWorked with a group of individuals to quickly develop application prototypes to optimize internal productivity",
+      "skills": [{ "skill": "React", "image": "../images/Panoramic.jpeg" }]
+    }
+  ]
+}

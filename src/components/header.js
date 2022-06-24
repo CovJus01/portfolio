@@ -3,8 +3,7 @@ import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
 import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { Link } from "react-scroll";
-//Style
-const HeaderLink = ({ children, href, target, type }) => (
+const HeaderLink = ({ children, href, target, type, offset }) => (
   <div className="link-wrap ">
     {type === "icon" ? (
       <a
@@ -21,7 +20,7 @@ const HeaderLink = ({ children, href, target, type }) => (
         to={href}
         spy={true}
         smooth={true}
-        offset={-window.innerHeight * 0.135}
+        offset={-window.innerHeight * offset}
         duration={1000}
       >
         {children}
@@ -50,11 +49,18 @@ const Header = () => {
       <HeaderLink href="mailto:covjus01@gmail.com" type="icon">
         <FaEnvelope />
       </HeaderLink>
-      <HeaderLink href="introduction">Home</HeaderLink>
-      <HeaderLink href="about">About</HeaderLink>
-      <HeaderLink href="experience">Experience</HeaderLink>
-      <HeaderLink href="projects">Projects</HeaderLink>
-      <HeaderLink href="contact">Contact</HeaderLink>
+      <HeaderLink href="introduction" offset={0}>
+        Home
+      </HeaderLink>
+      <HeaderLink href="about" offset={0.135}>
+        About
+      </HeaderLink>
+      <HeaderLink href="experience" offset={0}>
+        Experience
+      </HeaderLink>
+      <HeaderLink href="projects" offset={0}>
+        Projects
+      </HeaderLink>
     </header>
   );
 };

@@ -6,7 +6,6 @@ import "../styles/index.css";
 import About from "../components/about";
 import Experience from "../components/experience";
 import Projects from "../components/projects";
-import Contact from "../components/contact";
 
 //Body
 const IndexPage = () => {
@@ -24,9 +23,6 @@ const IndexPage = () => {
 
       <section id="projects" className="fourth content-block">
         <Projects />
-      </section>
-      <section id="contact" className="fifth content-block">
-        <Contact />
       </section>
     </Layout>
   );

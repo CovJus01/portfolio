@@ -51,6 +51,12 @@ p {
   font-family: "Lato", sans-serif;
   font-weight: 400;
 }
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 .content-block {
   top: 7vh;
   height: 80vh;
@@ -130,7 +136,7 @@ main {
 .first.content-block {
   margin-top: 7vh;
   height: 60vh;
-  background-image: url("../images/Panoramic.jpeg");
+  background-image: url("/images/Panoramic.jpeg");
   background-size: cover;
 }
 .introduction {
@@ -172,11 +178,14 @@ main {
 }
 
 .about h1 {
-  padding-left: 20%;
   font-size: 13vh;
+  text-align: left;
 }
 .about .content-wrap {
   width: 90%;
+  display: grid;
+  grid-template-columns: 30% 20% 50%;
+  grid-template-rows: 100%;
 }
 .vertical-gallery {
   display: grid;
@@ -186,18 +195,16 @@ main {
   width: 100%;
   justify-content: space-around;
 }
-.arrows {
-  flex: 0 0 20%;
-}
 .vertical-gallery p {
   color: #f3fcf0;
-  padding: 10% 40% 10% 10%;
-  font-size: 2vh;
+  padding: 10% 20% 0% 10%;
+  font-size: 2.5vh;
 }
 
 /*---------------------------Experience---------------------------*/
 .third.content-block {
   background: #a0c10e;
+  height: 120vh;
 }
 .experience {
   background-color: #a0c10e;
@@ -205,28 +212,80 @@ main {
   height: 100%;
 }
 
+.experience h1 {
+  font-size: 13vh;
+  text-align: center;
+}
+.experience .content-wrap {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 40% 40%;
+}
+
+.work-experience-gallery {
+  margin: 4vh 0;
+}
+.work-experience-gallery h2 {
+  font-size: 4vh;
+  text-align: left;
+}
+.work-experience-gallery p {
+  font-size: 2.5vh;
+}
+.job-wrap {
+  display: grid;
+  grid-template-columns: 20% 75% 5%;
+}
+.job-image {
+  padding-top: 1vh;
+  width: 80%;
+}
+
+.skill-bar {
+  background-color: #3d3d3d;
+  margin: 3vh auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 10% 20% 70%;
+  grid-template-rows: 6vh;
+}
+.other {
+  display: flex;
+  background-color: #5a5a6c;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.html {
+  display: flex;
+  background-color: #cb2a27;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.javascript {
+  display: flex;
+  background-color: #db851b;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
 /*---------------------------Projects---------------------------*/
 .fourth.content-block {
   background: #a52422;
+  height: 93vh;
 }
 .projects {
   background-color: #a52422;
   width: 100%;
   height: 100%;
-}
-
-/*---------------------------Contact---------------------------*/
-.fifth.content-block {
-  background: #14141c;
-  height: 93vh;
-}
-.contact {
-  background-color: #14141c;
-  width: 100%;
-  height: 100%;
-}
-
-/*---------------------------Footer---------------------------*/
-footer a {
-  font-size: 2rem;
 }
