@@ -1,7 +1,11 @@
 import React from "react";
 
 //Components
+const SkillLogo = ({skill}) => {
+  return(
 
+  );
+}
 const Job = ({ job }) => {
   return (
     <div className="job-wrap">

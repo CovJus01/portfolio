@@ -55,7 +55,7 @@ const Header = () => {
       <HeaderLink href="about" offset={0.135}>
         About
       </HeaderLink>
-      <HeaderLink href="experience" offset={0}>
+      <HeaderLink href="experience" offset={0.01}>
         Experience
       </HeaderLink>
       <HeaderLink href="projects" offset={0}>
