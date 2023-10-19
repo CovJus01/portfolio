@@ -33,9 +33,11 @@ const Experience = () => {
         </section>
         <section className="Skills">
           <h2>Skills</h2>
-          {skills.list.map((skill, index) => (
-            <h4 key={index}>{skill}</h4>
-          ))}
+          <div className="skills-container">
+            {skills.list.map((skill, index) => (
+              <p key={index}>{skill}</p>
+            ))}
+          </div>
         </section>
       </div>
     </div>

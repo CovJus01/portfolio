@@ -279,6 +279,19 @@ main {
   text-align: center;
   align-items: center;
 }
+
+.skills-container {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.skills-container p {
+  font-size: 30px;
+  text-align: center;
+}
+
 /*---------------------------Projects---------------------------*/
 .fourth.content-block {
   background: #a52422;
@@ -289,7 +302,7 @@ main {
   width: 90%;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 20% 40% 40%;
+  grid-template-rows: 20% 80%;
 }
 
 .projects {

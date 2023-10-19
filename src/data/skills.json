@@ -1,3 +1,28 @@
 {
-  "list": ["Java", "Javascript"]
+  "list": [
+    "Python",
+    "C",
+    "C++",
+    "Javascript",
+    "Typescript",
+    "Java",
+    "Assembly",
+    "Verilog",
+    "MATLAB",
+    "HTML",
+    "CSS",
+    "ReactJS",
+    "Redux",
+    "GraphQL",
+    "GatsbyJS",
+    "Express.js",
+    "Node.js",
+    "ASP.NET",
+    "MongoDB",
+    "Postman",
+    "Powerapps",
+    "Quartus II",
+    "ModelSim",
+    "Git"
+  ]
 }

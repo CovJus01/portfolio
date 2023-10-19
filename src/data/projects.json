@@ -1,10 +1,20 @@
 {
   "projects": [
     {
-      "title": "Space-rendering Microcontroller",
-      "description": "THIS IS A PROJECT DESCRIPTION",
-      "projectLink": "https://github.com/CovJus01/fitness-tracker"
+      "title": "Software-Defined Radio",
+      "description": "Modelled systems in Python to filter, isolate and process radio signals using communication system principles. The signals had to be processed in real time to be effective. These models were then implemented in C++ to use real time operating system principles to optimize the retrieval and processing of the radio signals."
     },
-    {}
+    {
+      "title": "Image Decompressor",
+      "description": "Designed & developed an image decompressor to do real time data retrieval, processing and output to a FPGAboard using digital system design principles. Development was done on Quartus II using C and Verilog. Verification of design and program correctness was done through ModelSim."
+    },
+    {
+      "title": "Pacemaker embedded software",
+      "description": "Worked with a group to implement pacing modes in embedded software using agile workflow. The team had to determine how each mode of the pacemaker had to function based on every type of heart dysfunction. Functionality of the pacemaker was completed through MATLAB, UI and communication to the pacemaker for accurate information was done through Python through UART communication."
+    },
+    {
+      "title": "Space Rendering Microcontroller",
+      "description": "Designed and developed a device to detect the shape of a room using LIDAR and digitally mapping the retrieved data into a 3D Graph. The implementation was done using a combination of C & Assembly on the MSP432E4 Microcontroller. Python was using to convert the data into a 3D Graph."
+    }
   ]
 }
