@@ -3,6 +3,9 @@ import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
 import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin";
 import { Link } from "react-scroll";
+
+const isBrowser = () => typeof window !== "undefined";
+
 const HeaderLink = ({ children, href, target, type, offset }) => (
   <div className="link-wrap ">
     {type === "icon" ? (
@@ -20,7 +23,7 @@ const HeaderLink = ({ children, href, target, type, offset }) => (
         to={href}
         spy={true}
         smooth={true}
-        offset={-window.innerHeight * offset}
+        offset={isBrowser && -window.innerHeight * offset}
         duration={1000}
       >
         {children}
