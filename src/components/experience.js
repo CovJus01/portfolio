@@ -1,16 +1,11 @@
 import React from "react";
 
 //Components
-const SkillLogo = ({skill}) => {
-  return(
-
-  );
-}
 const Job = ({ job }) => {
   return (
     <div className="job-wrap">
       <div className="center">
-        <img src={job.image} className="job-image" />
+        <img src={job.image} className="job-image" alt="RPDU Logo" />
       </div>
       <div>
         <h2>
@@ -23,6 +18,7 @@ const Job = ({ job }) => {
 };
 //Body
 const data = require("../data/experience.json");
+const skills = require("../data/skills.json");
 const Experience = () => {
   return (
     <div className="experience">
@@ -37,6 +33,9 @@ const Experience = () => {
         </section>
         <section className="Skills">
           <h2>Skills</h2>
+          {skills.list.map((skill, index) => (
+            <h4 key={index}>{skill}</h4>
+          ))}
         </section>
       </div>
     </div>
