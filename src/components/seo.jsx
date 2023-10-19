@@ -19,6 +19,9 @@ export const SEO = ({ title, description, pathname, children }) => {
     <>
       <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
+      <meta property="og:title" content={seo.title} />
+      <meta property="og:url" content="https://justincovach.netlify.app" />
+      <meta property="og:description" content={seo.description} />
       {children}
     </>
   );
