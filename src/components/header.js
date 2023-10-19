@@ -23,7 +23,7 @@ const HeaderLink = ({ children, href, target, type, offset }) => (
         to={href}
         spy={true}
         smooth={true}
-        offset={isBrowser && -window.innerHeight * offset}
+        offset={isBrowser() && -window.innerHeight * offset}
         duration={1000}
       >
         {children}
