@@ -6,6 +6,7 @@ import "../styles/index.css";
 import About from "../components/about";
 import Experience from "../components/experience";
 import Projects from "../components/projects";
+import { SEO } from "../components/seo";
 
 //Body
 const IndexPage = () => {
@@ -29,3 +30,5 @@ const IndexPage = () => {
 };
 
 export default IndexPage;
+
+export const Head = () => <SEO />;

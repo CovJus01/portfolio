@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `My-Portfolio`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Justin Covach`,
+    description: "A display of my accomplishments and pursuits",
+    siteUrl: `https://justincovach.netlify.app`,
   },
   plugins: [],
-}
-
+};
