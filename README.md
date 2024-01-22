@@ -2,7 +2,7 @@
   Justin Covach Portfolio Page
 </h1>
 
-This is a site for me to display some of my projects and accomplishments!
+This is a site for me to display some of my projects and accomplishments! Still a work in progress
 
 <h2>To-Do list:</h2>
 <ul>
